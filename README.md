@@ -89,5 +89,4 @@ All visuals update automatically based on filter selections.
 
 ## 📷 Dashboard Preview
 
-```markdown
 ![Dashboard Overview](screenshots./pwc dashboard.png)
