@@ -1,10 +1,12 @@
-# 📞 PwC Call Center Trends Dashboard
+# 📞 Call Center Trends Dashboard
 
-A Power BI dashboard designed to analyze call center operational performance and customer satisfaction metrics. This project provides actionable insights into call volume trends, agent efficiency, and service quality indicators.
+![Dashboard Preview](screenshots/pwc-dashboard.png)
+
+A Power BI dashboard designed to analyze call center operational performance and customer satisfaction metrics. This project delivers actionable insights into call volume trends, agent efficiency, and service quality indicators.
 
 ---
 
-## 📊 Dashboard Overview
+## 📊 Project Overview
 
 The Call Center Trends Dashboard provides a consolidated operational view of:
 
@@ -25,7 +27,7 @@ This dashboard supports data-driven decision-making for call center managers and
 ## 🚀 Key Metrics (KPIs)
 
 | Metric | Description |
-|--------|-------------|
+|--------|------------|
 | **Call Volume** | Total number of inbound calls received |
 | **CSAT (%)** | Customer Satisfaction Score |
 | **Call Resolved (%)** | Percentage of calls successfully resolved |
@@ -38,7 +40,7 @@ This dashboard supports data-driven decision-making for call center managers and
 ## 📈 Dashboard Components
 
 ### 1️⃣ KPI Summary Cards
-High-level performance indicators for quick executive visibility.
+High-level performance indicators providing executive visibility into operational health.
 
 ### 2️⃣ Agent Performance Analysis
 Detailed breakdown per agent including:
@@ -48,7 +50,7 @@ Detailed breakdown per agent including:
 - Resolution Rate
 - CSAT
 
-This enables performance benchmarking and coaching insights.
+Enables performance benchmarking and identification of coaching opportunities.
 
 ### 3️⃣ Satisfaction Level Distribution
 Call counts categorized into:
@@ -59,13 +61,13 @@ Call counts categorized into:
 - Satisfied
 - Very Satisfied
 
-Helps identify overall customer sentiment trends.
+Supports monitoring of overall customer sentiment.
 
 ### 4️⃣ Call Volume by Hour
-Tracks intraday call distribution (09:00 – 18:00) to support workforce optimization.
+Intraday call distribution (09:00 – 18:00) for workforce optimization and peak-hour planning.
 
 ### 5️⃣ Call Volume by Day
-Identifies peak call days (Monday – Sunday) for improved staffing allocation.
+Weekly call distribution (Monday – Sunday) for improved staffing allocation.
 
 ### 6️⃣ Interactive Filters
 Dynamic slicers allow filtering by:
@@ -82,11 +84,9 @@ All visuals update automatically based on filter selections.
 
 - **Power BI Desktop**
 - DAX (Data Analysis Expressions)
-- Data Modeling & Relationships
+- Data Modeling & Relationship Management
 - Interactive Visualizations & Slicers
 
 ---
 
-## 📷 Dashboard Preview
-
-![Dashboard Overview](screenshots./pwc dashboard.png)
+## 📂 Repository Structure
