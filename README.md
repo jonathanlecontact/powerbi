@@ -1,59 +1,71 @@
-# 📞 Call Center Trends Dashboard
+# 📞 PwC Call Center Performance Dashboard
 
 ![Dashboard Preview](screenshots/pwc-dashboard.png)
 
-A Power BI dashboard designed to analyze call center operational performance and customer satisfaction metrics. This project delivers actionable insights into call volume trends, agent efficiency, and service quality indicators.
+## 📌 Project Overview
 
----
+This project analyzes the PwC Call Center dataset as part of a data analytics case simulation. The objective was to evaluate customer service performance, identify operational inefficiencies, and provide actionable insights to improve overall call center effectiveness.
 
-## 📊 Project Overview
+The dashboard delivers a comprehensive view of:
 
-The Call Center Trends Dashboard provides a consolidated operational view of:
-
-- Total Call Volume
 - Customer Satisfaction (CSAT)
 - Call Resolution Rate
 - Call Abandonment Rate
 - Speed of Answer (ASA)
 - Average Handling Time (AHT)
-- Agent-level performance metrics
-- Call distribution by day and hour
-- Satisfaction-level analysis
+- Agent-level performance benchmarking
+- Call volume trends by day and hour
 
-This dashboard supports data-driven decision-making for call center managers and operations teams.
-
----
-
-## 🚀 Key Metrics (KPIs)
-
-| Metric | Description |
-|--------|------------|
-| **Call Volume** | Total number of inbound calls received |
-| **CSAT (%)** | Customer Satisfaction Score |
-| **Call Resolved (%)** | Percentage of calls successfully resolved |
-| **Call Abandoned (%)** | Percentage of calls abandoned before resolution |
-| **Speed of Answer (sec)** | Average time taken to answer calls |
-| **Avg Handling Time (sec)** | Average duration spent handling calls |
+This solution is designed to support data-driven decision-making for call center managers and business stakeholders.
 
 ---
 
-## 📈 Dashboard Components
+## 🎯 Business Problem
 
-### 1️⃣ KPI Summary Cards
-High-level performance indicators providing executive visibility into operational health.
+PwC’s client required visibility into:
+
+- Why customer satisfaction levels were fluctuating
+- Which agents were underperforming
+- When peak call volumes were occurring
+- How operational KPIs were trending over time
+
+The goal was to transform raw operational data into clear, executive-level insights.
+
+---
+
+## 📊 Key Performance Indicators (KPIs)
+
+| KPI | Description | Business Impact |
+|-----|------------|----------------|
+| **Total Calls** | Total inbound calls received | Measures service demand |
+| **CSAT (%)** | Customer Satisfaction Score | Indicates service quality |
+| **Call Resolved (%)** | % of successfully resolved calls | Measures efficiency |
+| **Call Abandoned (%)** | % of dropped calls | Identifies service bottlenecks |
+| **Speed of Answer (sec)** | Average time before answering | Impacts customer satisfaction |
+| **Avg Handling Time (sec)** | Average duration of calls | Measures operational efficiency |
+
+---
+
+## 📈 Dashboard Insights
+
+### 1️⃣ Executive KPI Summary
+Provides a high-level operational health check using dynamic metric cards.
 
 ### 2️⃣ Agent Performance Analysis
-Detailed breakdown per agent including:
-- Total Calls
-- Abandonment Rate
-- Speed of Answer
+Breakdown per agent including:
+- Total Calls Handled
 - Resolution Rate
+- Abandonment %
+- Speed of Answer
 - CSAT
 
-Enables performance benchmarking and identification of coaching opportunities.
+Enables identification of:
+- High-performing agents
+- Coaching opportunities
+- Training needs
 
-### 3️⃣ Satisfaction Level Distribution
-Call counts categorized into:
+### 3️⃣ Customer Satisfaction Distribution
+Calls categorized into:
 - Not Served
 - Very Dissatisfied
 - Dissatisfied
@@ -61,32 +73,37 @@ Call counts categorized into:
 - Satisfied
 - Very Satisfied
 
-Supports monitoring of overall customer sentiment.
+This highlights overall customer sentiment and service quality trends.
 
-### 4️⃣ Call Volume by Hour
-Intraday call distribution (09:00 – 18:00) for workforce optimization and peak-hour planning.
+### 4️⃣ Call Volume by Day
+Analyzes weekly call distribution to identify peak demand days and staffing optimization opportunities.
 
-### 5️⃣ Call Volume by Day
-Weekly call distribution (Monday – Sunday) for improved staffing allocation.
+### 5️⃣ Call Volume by Hour
+Intraday trend analysis (09:00–18:00) to support workforce scheduling and load balancing.
 
 ### 6️⃣ Interactive Filters
-Dynamic slicers allow filtering by:
+Users can dynamically filter by:
 - Agent
 - Topic
 - Month
 - Week Day
 
-All visuals update automatically based on filter selections.
+All visuals update in real time to support exploratory analysis.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools & Techniques Used
 
-- **Power BI Desktop**
+- Power BI Desktop
 - DAX (Data Analysis Expressions)
-- Data Modeling & Relationship Management
+- Data Modeling & Relationship Design
 - Interactive Visualizations & Slicers
+- KPI Calculation & Aggregation Logic
 
 ---
 
-## 📂 Repository Structure
+## 🧠 Key Analytical Learnings
+
+- Identified correlation between longer answer times and lower satisfaction scores.
+- Observed peak call volumes early in the week, suggesting staffing realignment opportunities.
+- Highlighted performance variability across agents, supporting targeted training strategies.
