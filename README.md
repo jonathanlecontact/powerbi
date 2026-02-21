@@ -1,4 +1,4 @@
-# 📞 Call Center Trends Dashboard
+# 📞 PwC Call Center Trends Dashboard
 
 A Power BI dashboard designed to analyze call center operational performance and customer satisfaction metrics. This project provides actionable insights into call volume trends, agent efficiency, and service quality indicators.
 
@@ -87,4 +87,7 @@ All visuals update automatically based on filter selections.
 
 ---
 
-## 📂 Repository Structure
+## 📷 Dashboard Preview
+
+```markdown
+![Dashboard Overview](screenshots./pwc dashboard.png)
